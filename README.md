@@ -22,3 +22,12 @@ FileSplash.onFileSplash(function(name, text){
 Try it out:
 
 http://www.michalpaszkiewicz.co.uk/filesplash/
+
+
+You can also edit the colour of the water by redefining black...
+
+```js
+FileSplash.Drawing.Colours.black = "orange";
+```
+
+(For the very creative, this value can also take gradients!)
